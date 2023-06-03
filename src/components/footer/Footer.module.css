@@ -1,0 +1,48 @@
+
+.footer{
+    background-color: #333;
+    color: white;
+    padding: 10% 12px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.smallText{
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    padding-bottom: 10%;
+}
+
+.mediumText{
+    border: none;
+    margin: 10% 0;
+    font-size: 23px;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 700;
+}
+
+.line{
+    margin: 0 auto;
+    border: 1px solid #333;
+    margin-bottom: 10%;
+
+}
+
+.socialCon{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.socialCon img{
+    width: 10%;
+    margin-right: 12px;
+    gap: 12px;
+    border: none
+}

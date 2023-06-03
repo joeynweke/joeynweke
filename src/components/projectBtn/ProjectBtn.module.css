@@ -1,0 +1,23 @@
+
+.project{
+    text-align: center;
+}
+
+.btn{
+    border: none;
+    font-size: 22px;
+    padding: 10px 24px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 8px;
+    background: linear-gradient(to right, lightblue, blue);
+    color: white;
+}
+
+.btn:hover{
+    opacity: 0.5;
+}
+
+.btn:active{
+    opacity: 0.5;
+}

@@ -1,0 +1,25 @@
+
+.hero{
+    border: none;
+    text-align: center;
+    padding: 12px;
+}
+
+.bigText{
+    color: #333;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 25%;
+    padding-bottom: 10%;
+    line-height: 35px;
+}
+
+.smallText{
+    font-size: 21px;
+    font-weight: 400;
+    color: #333;
+    text-align: left;
+    line-height: 30px;
+    padding-bottom: 10%;
+}

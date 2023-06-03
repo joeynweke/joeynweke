@@ -1,0 +1,43 @@
+
+.about{
+    border: none;
+    text-align: center;
+    padding: 24px;
+    background-color: white;
+}
+
+.bigText{
+    color: #333;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 15%;
+    line-height: 35px;
+    padding-bottom: 15px;
+}
+
+.smallText{
+    font-size: 21px;
+    font-weight: 400;
+    color: #333;
+    text-align: left;
+    line-height: 30px;
+    padding-bottom: 10%;
+}
+
+.line{
+    margin: 0 auto;
+    border: 3px solid blue;
+    width: 40px;
+    margin-bottom: 10%;
+
+}
+
+.mediumText{
+    border: none;
+    margin: 10% 0;
+    font-size: 23px;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 700;
+}
