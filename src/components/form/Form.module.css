@@ -37,6 +37,7 @@
     border-radius: 5px;
     background-color: rgb(246, 244, 244);
     outline-color: blue;
+    height: 100px;
 }
 
 .btn{
@@ -49,6 +50,7 @@
     border-radius: 8px;
     background: linear-gradient(to left, lightblue, blue);
     color: white;
+    cursor: pointer;
 }
 
 .btn:hover{
@@ -57,4 +59,22 @@
 
 .btn:active{
     opacity: 0.5;
+}
+
+@media (min-width: 800px) {
+    .btn{
+        border: none;
+        margin: 20px 0;
+        width: 125px;
+        font-size: 22px;
+        padding: 10px 24px;
+        text-align: center;
+        text-transform: uppercase;
+        border-radius: 8px;
+        background: linear-gradient(to left, lightblue, blue);
+        color: white;
+        cursor: pointer;
+        align-self: flex-end;
+    }
+    
 }

@@ -13,12 +13,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
 }
 
 .headerCon nav p{
     font-size: 22px;
     font-weight: 700;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .links{
@@ -44,4 +46,25 @@
     width: 30px;
     height: 30px;
     cursor: pointer;
+}
+
+.linksHidden{ 
+    display: none;
+}
+
+@media (min-width: 800px) {
+    .linksHidden{ 
+        display: flex;
+    }
+    .linksHidden a{
+        margin-right: 18px;
+        cursor: pointer;
+    }
+    .linksHidden a:hover{
+        border-bottom: 3px solid dodgerblue;
+    }
+    .headIcon{
+        display: none;
+    }
+    
 }

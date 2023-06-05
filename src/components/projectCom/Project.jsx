@@ -36,10 +36,13 @@ const Project = () => {
     return(
       projectObj.map((item) => {
         return(
-          <div className={classes.projectCon} key={item.key}>
+          
+            <div className={classes.projectCon} key={item.key}>
             <img className={classes.img} src={item.img} alt="" />
+            <div>
             <p className={classes.name}>{item.name}</p>
             <p className={classes.smallText}>{item.description}</p>
+            </div>
             <CaseStudyBtn />
             <br />
             <SeeCodeBtn />
@@ -56,8 +59,10 @@ const Project = () => {
         <div className={classes.line}></div>
         <p className={classes.smallText}>Here you will find more personal and clients projects that I created, with each project containing its own <b>source code</b>.
         </p>
+        
+        <div className={classes.wrap}>
         <ProjectArr/>
-      
+        </div>
       </div>
     </div>
   )

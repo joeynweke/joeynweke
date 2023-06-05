@@ -34,6 +34,18 @@
     align-items: center;
     justify-content: space-between;
     gap: 12px;
+    margin-top: 12px;
     flex-wrap: wrap;
     flex-direction: row;
+}
+
+@media (min-width: 800px) {
+    .mediumText{
+        border: none;
+        margin: 10% 0;
+        font-size: 28px;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 700;
+    }
 }

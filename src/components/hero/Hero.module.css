@@ -23,3 +23,23 @@
     line-height: 30px;
     padding-bottom: 10%;
 }
+
+@media (min-width: 800px) {
+    .bigText{
+        color: #333;
+        font-size: 45px;
+        font-weight: 900;
+        text-transform: uppercase;
+        padding-top: 25%;
+        padding-bottom: 5%;
+        line-height: 50px;
+    }
+    .smallText{
+        font-size: 21px;
+        font-weight: 400;
+        color: #333;
+        text-align: center;
+        line-height: 30px;
+        padding:0 10% 10%;
+    }
+}

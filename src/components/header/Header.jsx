@@ -1,7 +1,6 @@
 import React,{useState, useRef, useImperativeHandle, forwardRef } from 'react';
 import classes from './Header.module.css';
 
-
 const Header = () => {
   const [menu, setMenu] = useState(false);
   const handleMenu = () => {
@@ -34,6 +33,12 @@ const Header = () => {
           <img onClick={handleMenu} src="./images/menuIcon.png" className={classes.headIcon} alt="menu" />
         </span>
         }
+
+        <div className={classes.linksHidden}>
+          <a onClick={() => scrollToDivContact("about")}>About</a>
+          <a  onClick={() => scrollToDivContact("projects")}>Projects</a>
+          <a  onClick={() => scrollToDivContact("contact")}>Contact</a>
+        </div>
       </nav>
       {
         menu ?
