@@ -1,5 +1,6 @@
 import React from 'react';
 import classes from './Footer.module.css';
+import scrollToDivContact from '../utils/scroll';
 
 const socials = [
 
@@ -44,8 +45,8 @@ const Footer = () => {
       </p>
       <br /> <br />
       <div className={classes.line}></div>
-      <p className={classes.smallText}>
-        &copy;Copyright 2023. Made by <b><a href='#header'>Joey Nweke </a></b>
+      <p className={classes.smallText} style={{textAlign: 'center'}}>
+        &copy;Copyright 2023. Made by <b><a onClick={() => scrollToDivContact('header')}>Joey Nweke </a></b>
       </p>
     </div>
   )

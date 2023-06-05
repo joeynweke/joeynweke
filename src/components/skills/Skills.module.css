@@ -26,15 +26,15 @@
     color: white;
     font-weight: 600;
     text-transform: uppercase;
+    margin-top: 16px;
 }
 
 .flex{
     flex: 1;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 12px;
-    margin-top: 12px;
     flex-wrap: wrap;
     flex-direction: row;
 }

@@ -13,7 +13,9 @@
     border-radius: 8px;
     background: linear-gradient(to left, lightblue, blue);
     color: white;
+    cursor: pointer;
 }
+
 
 .btn:hover{
     opacity: 0.5;

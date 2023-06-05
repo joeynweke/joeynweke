@@ -1,6 +1,6 @@
 import React,{useState, useRef, useImperativeHandle, forwardRef } from 'react';
 import classes from './Header.module.css';
-
+import scrollToDivContact from '../utils/scroll';
 const Header = () => {
   const [menu, setMenu] = useState(false);
   const handleMenu = () => {
@@ -22,7 +22,7 @@ const Header = () => {
   return (
     <div className={classes.headerCon} id='header'>
       <nav>
-        <p>Joey Nweke</p>
+        <p id='header' onClick={() => scrollToDivContact('header')}>Joey Nweke</p>
         {
           menu ? 
         <span>
