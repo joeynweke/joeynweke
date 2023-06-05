@@ -30,7 +30,7 @@
         font-size: 45px;
         font-weight: 900;
         text-transform: uppercase;
-        padding-top: 25%;
+        padding-top: 10%;
         padding-bottom: 5%;
         line-height: 50px;
     }
@@ -40,6 +40,6 @@
         color: #333;
         text-align: center;
         line-height: 30px;
-        padding:0 10% 10%;
+        padding:0 5% 10%;
     }
 }

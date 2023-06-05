@@ -76,5 +76,10 @@
         cursor: pointer;
         align-self: flex-end;
     }
+
+    .form{
+        width: 80%;
+        margin: 0 auto
+    }
     
 }

@@ -54,7 +54,8 @@
         font-size: 21px;
         font-weight: 400;
         line-height: 30px;
-        padding: 0 10% 10%;
+        padding: 0 5% 10%;
+        text-align: left;
     }
     .mediumText{
         border: none;
@@ -64,5 +65,10 @@
     
         font-weight: 700;
     }
- 
+    .footer{
+        background-color: #333;
+        color: white;
+        padding: 12px;
+        width: 100%;
+    }
 }
